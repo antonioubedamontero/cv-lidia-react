@@ -2,10 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import "./index.css";
-import { Curriculum } from "./curriculum";
+import { MainCurriculum } from "./main-curriculum";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Curriculum />
+    <MainCurriculum />
   </StrictMode>
 );
