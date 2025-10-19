@@ -15,7 +15,7 @@ export const useSection = (sectionName: string) => {
     endpoints().then((sections) => {
       setSectionsData([...sections]);
     });
-  }, []);
+  }, [sectionName]);
 
   return {
     sectionsData,
