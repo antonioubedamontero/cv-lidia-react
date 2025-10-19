@@ -22,7 +22,7 @@ export const MainCurriculum = () => {
 
   return (
     <>
-      <CustomHeader />
+      {personalInfo && <CustomHeader name={personalInfo.name} />}
 
       <div className="flex flex-col md:flex-row">
         <div className="bg-orange-50 md:basis-1/4 md:border-r-2 md:border-r-gray-100">
