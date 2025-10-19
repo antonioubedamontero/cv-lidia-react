@@ -1,3 +1,5 @@
+import { IoPerson } from "react-icons/io5";
+
 import type { PersonalInfoResponse } from "../interfaces";
 import { getCandidateContactInfoMapped } from "../helpers";
 interface Props {
@@ -11,9 +13,12 @@ export const CustomAside = ({ personalInfo }: Props) => {
 
   return (
     <aside className="bg-orange-50 p-4 flex flex-col items-center gap-6 h-full">
-      <h2 className="text-xl underline">Información Personal:</h2>
+      <h2 className="text-xl underline md:self-start flex items-center gap-1">
+        <IoPerson />
+        <span>Datos de contacto:</span>
+      </h2>
       <img
-        className="w-2/4 md:w-1/2"
+        className="rounded-xl w-2/4 md:w-1/2"
         src={`${BASE_URL}/${personalInfo.photoUrl}`}
         alt="foto del candidato"
       />
