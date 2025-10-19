@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2025-10-20
+
+### Added
+
+- Added more icons at icons catalog.
+- Return an icon in getIconFromIconKey.
+- Added getSections endpoint.
+- Added section item component.
+
+### Changed
+
+- Added vertical padding in main curriculum when showing custom main component.
+- Refactor custom main to show about me section and rest of sections separately.
+- Refactor getAboutMeSection to return an array and an array of contents.
+- Refactor CurriculumSectionResponse to retrieve always an array of strings.
+
+### Removed
+
+- About me component removed.
+- Remove useAboutMe section.
+
+## [0.8.0] - 2025-10-19
+
+### Added
+
+- Added sections that are not about me.
+
+### Changed
+
+- Refactor to use useSection in existing code.
+- Refactor to use About me section as generic section with props.
+- Extract About me section to generic hook.
+
 ## [0.7.0] - 2025-10-19
 
 ### Added

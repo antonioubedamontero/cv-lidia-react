@@ -1,2 +1,2 @@
 export * from "./usePersonalInfo";
-export * from "./useAboutMeSection";
+export * from "./use-section";

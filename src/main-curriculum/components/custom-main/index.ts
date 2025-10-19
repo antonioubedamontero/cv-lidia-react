@@ -1,2 +1,2 @@
 export * from "./custom-main";
-export * from "./about-me";
+export * from "./section-item";
