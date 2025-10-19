@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.0] - 2025-10-19
+
+### Added
+
+- DOM sanitization to HTML elements come from endpoints (dompurify).
+- getAboutMeSection endpoints added.
+- About me component added.
+- Helper function to get icon from icon key.
+
+### Changed
+
+- General refactor.
+- Change colors to section title elements.
+
+### Removed
+
+- Removed icon from header title
+
 ## [0.6.0] - 2025-10-19
 
 ### Changed

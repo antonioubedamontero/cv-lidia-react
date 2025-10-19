@@ -5,3 +5,8 @@
   --font-roboto: "Roboto", sans-serif;
   --default-font-family: var(--font-roboto);
 }
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
