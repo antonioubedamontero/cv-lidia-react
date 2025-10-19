@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2025-10-19
+
+### Added
+
+- Axios instance and getPersonalInfo endpoint created.
+
+### Changed
+
+- MainCurriculum call getPersonalInfo and save it to useState.
+- Custom header created and receive name from props
+
 ## [0.2.0] - 2025-10-17
 
 - Main curriculum skeleton created.
