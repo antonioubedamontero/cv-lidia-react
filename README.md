@@ -2,7 +2,10 @@
 
 Lidia curriculum vitae developed with React + SWC + TypeScript + Vite.
 
-UI created with Tailwind CSS, React Icons and Luxon to mange dates.
+- UI created with Tailwind CSS.
+- React Icons and Luxon to mange dates.
+- useState, useEffect, Props and custom hooks.
+- Get data from endpoints with AXIOS.
 
 ## Launch Linter
 

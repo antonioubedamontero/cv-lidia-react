@@ -1,1 +1,1 @@
-export * from "./main-curriculum";
+export { MainCurriculum } from "./main-curriculum";
