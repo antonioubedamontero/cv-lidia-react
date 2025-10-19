@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2025-10-19
+
+### Fixed
+
+- Show current year in custom footer.
+- Refactor to include background color inside custom aside.
+
+### Changed
+
+- Custom aside receives personal info from props and render it.
+- Extract personalInfoResponse to helper mapping function.
+- Extract personal info endpoint management to usePersonalInfo.
+
 ## [0.4.0] - 2025-10-19
 
 ### Changed
