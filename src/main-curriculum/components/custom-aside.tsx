@@ -18,7 +18,7 @@ export const CustomAside = ({ personalInfo }: Props) => {
         <span>Datos de contacto:</span>
       </h2>
       <img
-        className="w-2/4 md:w-1/2"
+        className="rounded-xl w-2/4 md:w-1/2"
         src={`${BASE_URL}/${personalInfo.photoUrl}`}
         alt="foto del candidato"
       />
