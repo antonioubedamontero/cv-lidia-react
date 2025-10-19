@@ -1,9 +1,5 @@
-import {
-  CustomAside,
-  CustomFooter,
-  CustomHeader,
-  CustomMain,
-} from "./components";
+import { CustomAside, CustomFooter, CustomHeader } from "./components";
+import { CustomMain } from "./components/custom-main";
 import { usePersonalInfo } from "./hooks";
 
 export const MainCurriculum = () => {
