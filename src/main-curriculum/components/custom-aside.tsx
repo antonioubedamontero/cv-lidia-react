@@ -15,7 +15,7 @@ export const CustomAside = ({ personalInfo }: Props) => {
     <aside className="bg-orange-50 p-4 flex flex-col items-center gap-6 h-full">
       <h2 className="text-blue-700 text-xl underline md:self-start flex items-center gap-1">
         <IoPerson />
-        <span>Datos de contacto:</span>
+        <span>Datos de contacto</span>
       </h2>
       <img
         className="rounded-xl w-2/4 md:w-1/2"
