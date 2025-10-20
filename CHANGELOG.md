@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added more icons at icons catalog.
+- Added getCurriculumPdf endpoint.
+- Added curriculum download button to aside.
 - Added getSoftSkillsSection endpoint.
 - Added softSkills section to custom main component.
 

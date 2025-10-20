@@ -16,7 +16,10 @@ export const SoftSkillsSection = ({ softSkillsSection }: Props) => {
         <div className="flex gap-4 flex-wrap">
           {sectionItemData.content.map((hability) => {
             return (
-              <div key={hability} className="p-1 rounded-xl bg-orange-200">
+              <div
+                key={hability}
+                className="p-1 rounded-xl bg-orange-200 border-2 border-gray-300"
+              >
                 {hability}
               </div>
             );
