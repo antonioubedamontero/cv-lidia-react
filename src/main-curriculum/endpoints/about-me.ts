@@ -8,6 +8,7 @@ export const getAboutMeSection = async (): Promise<
   try {
     const response = await instance.get("/about-me.json");
     const { icon, title, content } = response.data;
+    /* Only returns an object not an array */
     return [
       {
         icon,
