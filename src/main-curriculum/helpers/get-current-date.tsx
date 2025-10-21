@@ -1,3 +1,1 @@
-import { DateTime } from "luxon";
-
-export const getCurrentYear = () => DateTime.now().toFormat("yyyy");
+export const getCurrentYear = () => new Date().getFullYear();

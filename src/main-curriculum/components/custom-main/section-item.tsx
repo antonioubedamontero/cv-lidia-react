@@ -1,3 +1,5 @@
+import React from "react";
+
 import DOMPurify from "dompurify";
 
 import { getIconFromIconKey } from "../../helpers/icons";
@@ -7,7 +9,7 @@ interface Props {
   curriculumItem: CurriculumSectionResponse;
 }
 
-export const SectionItem = ({ curriculumItem }: Props) => {
+export const SectionItem = React.memo(({ curriculumItem }: Props) => {
   return (
     <>
       {curriculumItem && (
@@ -44,4 +46,4 @@ export const SectionItem = ({ curriculumItem }: Props) => {
       )}
     </>
   );
-};
+});

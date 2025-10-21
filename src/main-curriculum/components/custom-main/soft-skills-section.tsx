@@ -1,3 +1,5 @@
+import React from "react";
+
 import { getIconFromIconKey } from "../../helpers/icons";
 import type { CurriculumSectionResponse } from "../../interfaces";
 
@@ -5,7 +7,7 @@ interface Props {
   softSkillsSection: CurriculumSectionResponse[];
 }
 
-export const SoftSkillsSection = ({ softSkillsSection }: Props) => {
+export const SoftSkillsSection = React.memo(({ softSkillsSection }: Props) => {
   return softSkillsSection?.map((sectionItemData) => {
     return (
       <section key={sectionItemData.title} className="my-4">
@@ -28,4 +30,4 @@ export const SoftSkillsSection = ({ softSkillsSection }: Props) => {
       </section>
     );
   });
-};
+});
