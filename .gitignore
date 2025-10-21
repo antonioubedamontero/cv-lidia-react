@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
+# Environment variables and bundle analyzer
 .env
+docs/bundle-analysis.html
